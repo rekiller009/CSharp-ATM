@@ -1,0 +1,12 @@
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\bin\Debug\net6.0\BOLayer.deps.json
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\bin\Debug\net6.0\BOLayer.dll
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\bin\Debug\net6.0\BOLayer.pdb
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\obj\Debug\net6.0\BOLayer.csproj.AssemblyReference.cache
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\obj\Debug\net6.0\BOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\obj\Debug\net6.0\BOLayer.AssemblyInfoInputs.cache
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\obj\Debug\net6.0\BOLayer.AssemblyInfo.cs
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\obj\Debug\net6.0\BOLayer.csproj.CoreCompileInputs.cache
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\obj\Debug\net6.0\BOLayer.dll
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\obj\Debug\net6.0\refint\BOLayer.dll
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\obj\Debug\net6.0\BOLayer.pdb
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\BOLayer\obj\Debug\net6.0\ref\BOLayer.dll

@@ -1,0 +1,17 @@
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\bin\Debug\net6.0\ViewLayer.deps.json
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\bin\Debug\net6.0\ViewLayer.dll
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\bin\Debug\net6.0\ViewLayer.pdb
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\bin\Debug\net6.0\BOLayer.dll
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\bin\Debug\net6.0\LogicLayer.dll
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\bin\Debug\net6.0\BOLayer.pdb
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\bin\Debug\net6.0\LogicLayer.pdb
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\obj\Debug\net6.0\ViewLayer.csproj.AssemblyReference.cache
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\obj\Debug\net6.0\ViewLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\obj\Debug\net6.0\ViewLayer.AssemblyInfoInputs.cache
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\obj\Debug\net6.0\ViewLayer.AssemblyInfo.cs
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\obj\Debug\net6.0\ViewLayer.csproj.CoreCompileInputs.cache
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\obj\Debug\net6.0\ViewLayer.csproj.CopyComplete
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\obj\Debug\net6.0\ViewLayer.dll
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\obj\Debug\net6.0\refint\ViewLayer.dll
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\obj\Debug\net6.0\ViewLayer.pdb
+C:\Users\Chuan\Documents\GitHub\CSharp-ATM\ATM\ViewLayer\obj\Debug\net6.0\ref\ViewLayer.dll
