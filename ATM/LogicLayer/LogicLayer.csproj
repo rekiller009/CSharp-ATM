@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BOLayer\BOLayer.csproj" />
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj"></ProjectReference>
+  </ItemGroup>
+
 </Project>

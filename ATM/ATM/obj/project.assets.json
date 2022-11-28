@@ -12,9 +12,26 @@
           "bin/placeholder/BOLayer.dll": {}
         }
       },
+      "DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BOLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataLayer.dll": {}
+        }
+      },
       "LogicLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BOLayer": "1.0.0",
+          "DataLayer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/LogicLayer.dll": {}
         },
@@ -43,6 +60,11 @@
       "type": "project",
       "path": "../BOLayer/BOLayer.csproj",
       "msbuildProject": "../BOLayer/BOLayer.csproj"
+    },
+    "DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataLayer/DataLayer.csproj",
+      "msbuildProject": "../DataLayer/DataLayer.csproj"
     },
     "LogicLayer/1.0.0": {
       "type": "project",

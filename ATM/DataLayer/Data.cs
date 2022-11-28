@@ -81,6 +81,164 @@ namespace DataLayer
         public void UpdateInFile(Customer customer)
         {
             List<Customer> list = ReadFile<Customer>("customers.txt");
+            for(int i = 0; i < list.Count; i++)
+            {
+                if (list[i].AccountNo == customer.AccountNo)
+                {
+                    list[i] = customer;
+                }
+            }
+            // Overwriting the list of file
+            SaveToFile<Customer>(list);
+        }
+
+        // Checks if an Admin object in File
+        public bool isInFile(Admin user)
+        {
+            List<Admin> list = ReadFile<Admin>("admins.txt");
+            foreach(Admin admin in list)
+            {
+                if(admin.Username == user.Username && admin.Pin == user.Pin)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // Checks if a Customer object in File
+        public int isUserActive(string user)
+        {
+            List<Customer> list = ReadFile<Customer>("customers.txt");
+            foreach (Customer customer in list)
+            {
+                if (customer.Username == user && customer.Status == "Active")
+                {
+                    return 1;
+                }
+                else if (customer.Username == user && customer.Status == "Disabled")
+                {
+                    return 2;
+                }
+            }   
+            return 0;
+        }
+
+        // Checks if a user is active or not
+        public bool canLogin(Customer customer)
+        {
+            List<Customer> list = ReadFile<Customer>("customers.txt");
+            foreach(Customer user in list)
+            {
+                if(customer.Username == user.Username && customer.Pin == user.Pin && user.Status == "Active")
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // Checks if an account number is in File
+        public bool isInFile(int accNo,out Customer outCustomer)
+        {
+            List<Customer> list = ReadFile<Customer>("customers.txt");
+            foreach(Customer customer in list)
+            {
+                if(customer.AccountNo == accNo)
+                {
+                    outCustomer = customer;
+                    return true;
+                }
+            }
+            outCustomer = null;
+            return false;
+        }
+
+        // Checks if an username is in File
+        public bool isInFile(string username)
+        {
+            List<Customer> list = ReadFile<Customer>("customers.txt");
+            foreach(Customer customer in list)
+            {
+                if(customer.Username == username)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // Return an object if given username
+        public Customer? GetCustomer(string username)
+        {
+            List<Customer> list = ReadFile<Customer>("customers.txt");
+            foreach(Customer customer in list)
+            {
+                if(customer.Username == username)
+                {
+                    return customer;
+                }
+            }
+
+            return null;
+        }
+
+        // Return an object if given accountNo
+        public Customer? GetCustomer(int accNo)
+        {
+            List<Customer> list = ReadFile<Customer>("customers.txt");
+            foreach(Customer customer in list)
+            {
+                if(customer.AccountNo == accNo)
+                {
+                    return customer;
+                }
+            }
+
+            return null;
+        }
+
+        // Method to get the last account number
+        public int getLastAccountNumber()
+        {
+            List<Customer> list = ReadFile<Customer>("customers.txt");
+            if(list.Count > 0)
+            {
+                Customer customer = list[list.Count - 1];
+                return customer.AccountNo;
+            }
+            return 0;
+        }
+
+        // Deduct amount from balance of an account and update it in file
+        public void DeductBalance(Customer c, int amount)
+        {
+            c.Balance -= amount;
+            UpdateInFile(c);
+        }
+
+        // Add amount to balance of an account and update it in file
+        public void AddAmount(Customer c, int amount)
+        {
+            c.Balance += amount;
+            UpdateInFile(c);
+        }
+
+        // Returns total amount a customer has withdrawn today
+        public int TodaysTransactionsAmount(int accNo)
+        {
+            List<Transaction> list = ReadFile<Transaction>("transactions.txt");
+            int totalAmount = 0;
+
+            // Checking the transactions and adding the amount
+            foreach(Transaction transaction in list)
+            {
+                if(transaction.AccountNo == accNo)
+                {
+                    totalAmount += transaction.TransactionAmount;
+                }
+            }
+            return totalAmount;
         }
     }
 }
