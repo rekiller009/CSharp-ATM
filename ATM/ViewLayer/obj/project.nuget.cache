@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EUAocWFjtw6BczKZAH0wCKbBCTcWSCxeTFX/N+IFUb7l9CJrKs3zG9QdP4eu5JqboOazmefFRpBst36u5wcPoQ==",
+  "dgSpecHash": "Dr2oO7fnQz7HEfcI7XWBV8ebjVxfp3lqERoeATqLPtwa2QN7ZtnFTlgmOi7UJD8FSDSoDD8lydqUF8elFbetTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Chuan\\Documents\\GitHub\\CSharp-ATM\\ATM\\ViewLayer\\ViewLayer.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Chuan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\Chuan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\Chuan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\changchuan_cham\\Desktop\\Angular\\Angular Testing 5 - Linked to Database\\CSharp-ATM\\ATM\\ViewLayer\\ViewLayer.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

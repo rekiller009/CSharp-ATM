@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5zLAEyNdPF8JEKOBiQ2YBEaPBVSx1zIcZRALVderXS9f8rYESNapHxO7TS3eFr2I6Q0Ypopc6wLcbyTbgCACUg==",
+  "dgSpecHash": "mYfyuvqDXF2BDwW3sd9NKuXXdptHJS1Zm8vATfM/qDWF4S+U/RXO6DE7xyVJbH2SqJDCi2CjrdeSpKb+bvuk8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Chuan\\Documents\\GitHub\\CSharp-ATM\\ATM\\ATM\\ATM.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Chuan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512",
-    "C:\\Users\\Chuan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\Chuan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\Chuan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\changchuan_cham\\Desktop\\Angular\\Angular Testing 5 - Linked to Database\\CSharp-ATM\\ATM\\ATM\\ATM.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
