@@ -14,7 +14,7 @@ namespace BOLayer
         public string HoldersName { get; set; }
         public string TransactionType { get; set; }
         public int TransactionAmount { get; set; }
-        public string Data { get; set; }
+        public string Date { get; set; }
         public int Balance { get; set; }
 
     }
