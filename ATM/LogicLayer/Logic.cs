@@ -1071,7 +1071,7 @@ namespace LogicLayer
         }
 
         // Method to display balance
-        public void DsiplayBalance(string username)
+        public void DisplayBalance(string username)
         {
             Data data = new Data();
             Customer customer = new Customer();
